@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>
+InSignia
+</title>
+
+<link rel="stylesheet" type="text/css" href="style1.css">
+<style>
+body{
+background-size: cover;
+}
+.container
+{
+position:relative;
+margin:80px;
+
+width:1000px;
+padding: 30px;
+background: #fff;
+box-sizing: border-box;
+border-radius: 10px;
+box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.circle
+{
+width: 200px;
+height: 200px;
+background: url(acm.png);
+border-radius: 50%;
+float: left;
+shape-outside: circle();
+margin: 60px 30px 30px 0;} 
+p
+{
+margin: 0;
+padding: 0;
+text-align: justify;
+line-height: 22px;
+}
+h1
+{
+margin: 00 20px;
+padding: 0;
+font-size: 30px;
+}
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+</style>
+</head>
+<body>
+<nav>
+<div class="toggle">
+<div class="menu">
+<i class="fa fa-bars" aria-hidden="true"></i></div>
+</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a>
+<li><a href="gallery.html">Gallery</a>
+<li><a href="members.html">Members</a>
+<li><a href="contact.html">Contact</a>
+<li><a href="nn.html">Event</a>
+</ul>
+</nav>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.menu').click(function(){
+$('ul').toggleClass('active')
+})
+})
+</script>
+<div class="bh">
+<div class="container">
+	<div class="circle"></div>
+	<h1>About the ACM India Council</h1>
+	<p>The ACM India Council is an effort of ACM, the world's largest educational and scientific computing society, aimed at increasing the level and visibility of ACM activities across India. The ACM India Council activities, involving both academia and industry in computing, include:
+
+Research:
+Best Doctoral Dissertation Award: Honoured with plaque and prize as well as publication in ACM Digital Library
+Travel grants for conferences: Joint effort of ACM India and the Indian Association for Research in Computing Science (IARCS) to offer partial travel grant to researchers from India to present papers at premier international conferences
+IRISS (Inter-Research-Institute Student Seminar): Opportunity for students to showcase their published work to fellow researchers in academia and industry
+Annual Academic Research Summit: Microsoft Research (MSR) and ACM India co-organize the Academic Research Summit. The agenda includes keynotes and talks from distinguished researchers from India and across the world. The audience at the summit comprises faculty and research scholars from top academic institutes and representatives from industry and the government
+Organization of high quality computing conferences in India: Showcasing computing research happening in India as well as internationally through:
+Increasing the number of top international conference editions held in India, such as ICSE 2014, POPL 2015, VLDB 2016, MOBICOM 2018, ICPE 2019
+Other ACM India events and conferences such as Annual Event, CODS-COMAD, and ISEC
+Co-sponsoring conferences which are held in India, such as FIRE 2018, VLSI 2019, COMSNETS 2019
+Computing Education:
+ACM India Summer and Winter Schools: Developing a taste for research among students through 2- to 3-week summer schools conducted by faculty comprising leading experts from academia and industry on advanced topics in computing
+CSPathshala: An ACM India initiative to inculcate computational thinking at the secondary school level, and influence education policy to enable its introduction into the school curricula
+COMPUTE: ACM India annual international symposium focused on Computing Education
+ACM-W India: taking forward the task of growing the ACM community, with a particular focus on the empowerment of women in computing in India.
+Eminent Speaker Program: The ACM India Eminent Speaker Program (ESP) provides local ACM professional and student chapters in India with direct access to top technology leaders and innovators who will give talks on topics that are important to the computing community.
+Organizational membership program: aimed at growing the participation of industry as well as the collaboration between Indian academia and computing industry.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.team-section
+{
+overflow:hidden;
+text-align:center;
+padding:60px;
+background:#34495e;
+}
+.team-section h1
+{font-family:garamond;
+text-transform:uppercase;
+margin-bottom:20px;
+padding:20px;
+color:white;
+font-size:60px;
+}
+.border
+{
+display:block;
+margin:auto;
+width:180px;
+height:3px;
+overflow:hidden;
+background:#3498db;
+margin-bottom:40px;
+}
+.ps
+{
+margin-bottom:40px;
+}
+.ps a 
+{
+display:inline-block;
+margin:0 30px;
+width:180px;
+height:180px;
+overflow:hidden;
+border-radius:50%;
+}
+
+.ps a img
+{
+width:100%;
+filter:none;
+transition:.4s all;
+}
+.ps a:hover>img
+{
+filter:grayscale(20%);
+}
+
+.section
+{
+width:1200px;
+margin:auto;
+font-size:20px;
+color:white;
+text-align:justify;
+height:0;
+overflow:hidden;
+}
+.section:target
+{
+height:auto;
+}
+.section p
+{
+text-align:justify;
+font-family:playball;
+color:white;
+font-size:30px;
+margin:30px 30px 30px 30px;
+text-indent:90px;
+}
+.name
+{
+display:block;
+margin-bottom:30px;
+text-align:center;
+color:white;
+text-transform:uppercase;
+font-size:35px;
+}
+
